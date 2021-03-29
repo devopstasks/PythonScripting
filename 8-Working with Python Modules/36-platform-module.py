@@ -1,0 +1,11 @@
+import platform
+print(dir(platform))
+print(f"This is {platform.system()} os")
+print(f"Platform architecture is {platform.architecture()}")
+print(f"Python version is{platform.python_version()}")
+print(platform.machine())
+print(platform.platform())
+print(platform.release())
+print(platform.processor())
+print(platform.node())
+print(platform.uname())
